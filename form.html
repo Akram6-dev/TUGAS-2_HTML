@@ -6,95 +6,94 @@
     <title>Document</title>
 </head>
 <body>
-    <table border="1">
-        <tr>
-            <th>Kelas</th>
-            <th>Nama Siswa</th>
-            <th>Project</th>
-            <th>Status</th>
-            <th>Nilai</th>
-        </tr>
-        <tr>
-            <td rowspan="3">XI RPL 1</td>
-            <td>Andi</td>
-            <td>Website Sekolah</td>
-            <td>Selesai</td>
-            <td>90</td>
-        </tr>
-        <tr>
-            <td>Siti</td>
-            <td>Website Sekolah</td>
-            <td>Selesai</td>
-            <td>94</td>
-        </tr>
-        <tr>
-            <td>Budi</td>
-            <td>Sistem Kasir</td>
-            <td>Proses</td>
-            <td>82</td>
-        </tr>
-        <tr>
-            <td rowspan="3">XI RPL 2</td>
-            <td>Rina</td>
-            <td>Website Sekolah</td>
-            <td>Selesai</td>
-            <td>95</td>
-        </tr>
-        <tr>
-            <td>Dika</td>
-            <td>Sitem Perpustakaan</td>
-            <td>Proses</td>
-            <td>84</td>
-        </tr>
-        <tr>
-            <td>Andi</td>
-            <td>Sitem Perpustakaan</td>
-            <td>Selesai</td>
-            <td>91</td>
-        </tr>
-    </table>
-    <br><br>
-    <table border="1">
-        <tr>
-            <th rowspan="2">WAKTU</th>
-            <th colspan="2">SENIN</th>
-            <th>SELASA</th>
-            <th>RABU</th>
-        </tr>
-        <tr>
-            <td>Lab 1</td>
-            <td>Lab 2</td>
-            <td>Lab 1</td>
-            <td>Lab 1</td>
-        </tr>
-        <tr>
-            <td>07.00</td>
-            <td>HTML</td>
-            <td>Database</td>
-            <td>PHP</td>
-            <td>JS</td>
-        </tr>
-        <tr>
-            <td>08.00</td>
-            <td>HTML</td>
-            <td>Database</td>
-            <td>PHP</td>
-            <td>JS</td>
-        </tr>
-        <tr>
-            <td>09.00</td>
-            <td>CSS</td>
-            <td>Database</td>
-            <td>Laravel</td>
-            <td>Project</td>
-        </tr>
-        <tr>
-            <td>10.00</td>
-            <td>CSS</td>
-            <td>Database</td>
-            <td>Laravel</td>
-            <td>Project</td>
-        </tr>
-    </table>
+    <h1>DATA DIRI SISWA</h1>
+    <form>
+        <label>Nama Lengkap</label>
+        <input type="text" name="nama" placeholder="Masukkan nama" required>
+
+        <br><br>
+
+        <label>Nomor Induk Asal</label>
+        <input type="number" name="email" placeholder="Masukkan nomor induk">
+
+        <br><br>
+
+        <label>NISN</label>
+        <input type="number" name="nisn" placeholder="Masukkan NISN">
+
+        <br><br>
+
+        <label>Tempat & Tanggal Lahir</label>
+        <input type="date" name="tanggal_lahir" placeholder="Masukkan tanggal lahir">
+
+        <br><br>
+
+        <label>Jenis Kelamin</label>
+        <input type="radio" name="jk" value="L"> Laki-laki
+        <input type="radio" name="jk" value="P"> Perempuan
+
+        <label>   Agama</label>
+        <input type="text" name="agama" placeholder="Masukkan agama">
+
+        <br><br>
+
+        <label>Anak Ke</label>
+        <input type="number" name="anak_ke" placeholder="Masukkan anak ke berapa">
+
+        <br><br>
+
+        <label>Status anak dalam keluarga</label>
+        <input type="radio" name="Status_anak_dalam_keluarga" value="1"> Anak Kandung
+        <input type="radio" name="Status_anak_dalam_keluarga" value="2"> Anak Angkat
+        <input type="radio" name="Status_anak_dalam_keluarga" value="3"> Lainnya
+
+        <br><br>
+        <label>Alamat Siswa</label>
+        <input type="text" name="alamat" placeholder="Masukkan alamat siswa">
+
+        <br><br>
+
+        <label>No Telepon Siswa</label>
+        <input type="tel" name="telepon" placeholder="Masukkan no telepon siswa">
+
+        <br><br>
+
+        <label>Sekolah Asal</label>
+        <input type="text" name="Asal Sekolah" placeholder="Masukkan sekolah asal">
+    </form>
+
+
+    <h1>DATA ORANG TUA KANDUNG</h1>
+    <form>
+        <label>Nama Lengkap Ayah</label>
+        <input type="text" name="nama_ayah" placeholder="Masukkan nama ayah">
+
+        <br><br>
+
+        <label>Nama Lengkap Ibu</label>
+        <input type="text" name="nama_ibu" placeholder="Masukkan nama ibu">
+
+        <br><br>
+
+        <label>Alamat</label>
+        <input type="text" name="alamat_ortu" placeholder="Masukkan alamat orang tua">
+
+        <br><br>
+
+        <label>No Telepon</label>
+        <input type="tel" name="telepon_ortu" placeholder="Masukkan no telepon orang tua">
+
+        <br><br>
+        <label>Pekerjaan Ayah</label>
+        <input type="text" name="pekerjaan_ayah" placeholder="Masukkan pekerjaan ayah">
+        <label>Pekerjaan Ibu</label>
+        <input type="text" name="pekerjaan_ibu" placeholder="Masukkan pekerjaan ibu">
+
+        <br><br>
+        <label>pendidikan terakhir ayah</label>
+        <input type="text" name="pendidikan_ayah" placeholder="Masukkan pendidikan terakhir ayah">
+        <label>pendidikan terakhir ibu</label>
+        <input type="text" name="pendidikan_ibu" placeholder="Masukkan pendidikan terakhir ibu">    
+    </form>
 </body>
 </html>
