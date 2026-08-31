@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Club SMKN 1 Subang</title>
+</head>
+<body>
+
+    <!-- header yang berisi judul dan slogan -->
+    <header>
+        <h1>Coding Club SMKN 1 Subang</h1>
+        <p>Belajar, Berkarya, dan Berkembang Bersama Teknologi.</p>
+    </header>
+
+    <!-- navigasi bar -->
+    <nav>
+        <a href="#beranda">Beranda</a>
+        <a href="#tentang">Tentang</a>
+        <a href="#kegiatan">Kegiatan</a>
+        <a href="#jadwal">Jadwal</a>
+        <a href="#daftar">Daftar</a>
+    </nav>
+
+    <br>
+    <!-- konten utama halaman -->
+    <main id="beranda">
+
+        <!-- Bagian Pembuka yang berisi judul, deskripsi singkat, gambar, dan tombol daftar -->
+        <section>
+            <h2>Belajar Coding Mulai dari Sekarang</h2>
+            <p>Coding Club SMKN 1 Subang adalah komunitas belajar coding yang bertujuan untuk mengembangkan kemampuan siswa dalam bidang teknologi dan pemrograman. Bergabunglah dengan kami untuk belajar, berkarya, dan berkembang bersama.</p>
+            <img src="images.jpg" alt="Coding Club">
+            <br>
+            <a href="#daftar">Daftar Sekarang</a>
+        </section>
+
+        <br>
+        <!-- bagian tentang coding club -->
+        <section id="tentang">
+            <h2> Tentang Coding Club</h2>
+            <p>Coding Club berkomitmen memperkenalkan dunia pemrograman dan teknologi digital kepada anggotanya. Klub ini bertujuan membangun fondasi berpikir komputasional, mengasah kemampuan pemecahan masalah (problem solving), serta menumbuhkan kreativitas melalui pembuatan perangkat lunak.</p>
+            <p>Manfaat bergabung dengan klub ini adalah penguasaan keterampilan teknis (coding) yang relevan dengan masa depan. Selain itu, Anda juga dapat melatih kerja sama tim, berkomunikasi dengan baik, serta memperluas jejaring pertemanan yang suportif.</p>
+        </section>
+
+        <br>
+        <!-- bagian materi yang dipelajari di coding club -->
+        <section id="materi">
+            <h2>Apa yang Dipelajari</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Pemrograman Web</li>
+                <li>Git dan GitHub</li>
+            </ul>
+        </section>
+
+        <br>
+        <!-- bagian alur mengikuti coding club -->
+        <section>
+            <h2>Alur Mengikuti Coding Club</h2>
+            <ol>
+                <li>Mengisi formulir pendaftaran</li>
+                <li>Mengikuti pertemuan pertama</li>
+                <li>Belajar dasar pemrograman</li>
+                <li>Membuat proyek sederhana</li>
+                <li>Presentasi hasil proyek</li>
+            </ol>
+        </section>
+
+        <br>
+        <!-- bagian kegiatan yang ada di koding club -->
+        <section id="kegiatan">
+
+            <article>
+                <h2>Kegiatan 1: Belajar HTML</h2>
+                <p>Mempelajari dasar-dasar HTML untuk membuat struktur halaman website.</p>
+            </article>
+
+            <article>
+                <h2>Kegiatan 2: Membuat Website</h2>
+                <p>Membuat website sederhana dengan menerapkan HTML dan CSS.</p>
+            </article>
+
+            <article>
+                <h2>Kegiatan 3: Project Showcase</h2>
+                <p>Menampilkan hasil project website yang telah dibuat sebagai portofolio.</p>
+            </article>
+
+        </section>
+
+        <br>
+        <!-- bagian Jadwal Kegiatan coding club -->
+        <section id="jadwal">
+            <h2> Jadwal Kegiatan</h2>
+            <table border="1">
+                <tr>
+                    <th>Hari</th>
+                    <th>Kegiatan</th>
+                    <th>Jam</th>
+                    <th>Tempat</th>
+                </tr>
+                <tr>
+                    <td>Senin</td>
+                    <td>Belajar HTML</td>
+                    <td>15.00 - 16.30</td>
+                    <td>Lab RPL</td>
+                </tr>
+                <tr>
+                    <td>Rabu </td>
+                    <td>Pemrograman Web</td>
+                    <td>15.00 - 16.30</td>
+                    <td>Lab RPL</td>
+                </tr>
+                <tr>
+                    <td>Jumat</td>
+                    <td>Project Coding</td>
+                    <td>13.30 - 15.00</td>
+                    <td>Lab RPL</td>
+                </tr>
+            </table>
+        </section>
+        
+        <br><br>
+
+        <!-- bagian Form Pendaftaran yang berisi data data yang perlu di isi -->
+        <section id="daftar">
+            <h2>Form Pendaftaran</h2>
+            <form>
+                <label>Nama Lengkap:</label>
+                <br>
+                <input type="text" name="nama" required>
+
+                <br><br>
+
+                <label>Email:</label>
+                <br>
+                <input type="email" name="email" required>
+
+                <br><br>
+
+                <label>Kelas:</label>
+                <br>
+                <select name="kelas" required>
+                    <option>X RPL 1</option>
+                    <option>X RPL 2</option>
+                    <option>XI RPL 1</option>
+                    <option>XI RPL 2</option>
+                </select>
+
+                <br><br>
+
+                <label>Jenis Kelamin:</label>
+                <br>
+                <input type="radio" name="gender" value="L"> Laki-laki
+                <input type="radio" name="gender" value="P"> Perempuan
+
+                <br><br>
+
+                <label>Minat yang ingin dipelajari:</label>
+                <br>
+                <input type="checkbox" name="minat" value="WEB" > Web Development
+                <input type="checkbox" name="minat" value="GAME"> Game Development
+                <input type="checkbox" name="minat" value="UI/UX"> UI/UX
+                <input type="checkbox" name="minat" value="MOBILE"> Mobile Development
+
+                <br><br>
+                
+                <label>Alasan ingin bergabung:</label>
+                <br>
+                <textarea name="alasan" rows="4" cols="50" placeholder="Alasan ingin bergabung"></textarea>
+
+                <br><br>
+
+                <button type="submit">Daftar</button>
+                <button type="reset">Reset</button>
+            </form>
+        </section>
+    </main>
+
+    <br><br><br>
+    <!-- bagian footer yang berisi informasi hak cipta dan nama organisasi -->
+    <footer>
+        <p>Coding Club SMKN 1 Subang</p>
+        <p>Rekayasa Perangkat Lunak</p>
+        <p>© 2026 Coding Club SMKN 1 Subang</p>
+    </footer>
+</body>
+</html>
