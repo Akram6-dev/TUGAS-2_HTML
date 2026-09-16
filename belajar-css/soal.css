@@ -1,0 +1,36 @@
+/* soal satu */
+
+p {
+    color: #333;
+    line-height: 1.6;
+}
+
+/* soal dua */
+
+.tombol {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+}
+
+/* soal tiga */
+
+#header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+/* soal empat */
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+/* soal lima */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
